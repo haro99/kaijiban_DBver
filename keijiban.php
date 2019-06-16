@@ -3,7 +3,7 @@
     //セッション開始
     session_start();
     //データベースの接続
-    $mysqli = new mysqli('127.0.0.1', 'root', '', 'keijiban_db');
+    $mysqli = new mysqli('IP', 'root', '', 'keijiban_db');
     //文字をutf8に設定する
     $mysqli->set_charset("utf8");
 
