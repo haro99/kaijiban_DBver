@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+div.top-comments{
+    display: inline-block;
+}
+div.comments{
+    background: skyblue;
+    margin: 10px;
+}
+p.message{
+    margin: 5px;
+    padding-left: 5px;
+}
